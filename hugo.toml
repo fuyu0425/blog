@@ -1,3 +1,179 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://blog.yfu.tw/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageName = "English"
+
+title = "Yu-Fu Fu's Blog"
+theme = "LoveIt"
+
+enableRobotsTXT = true
+enableEmoji = true
+
+
+hasCJKLanguage = true
+
+paginate = 3
+
+rssLimit = 20
+
+defaultContentLanguage = "en"
+
+[author]
+  name = "Yu-Fu Fu"
+  email = "yufu@yfu.tw"
+  link = "https://yfu.tw"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    weight = 10
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    weight = 20
+    identifier = "posts"
+    url = "/posts/"
+  [[menu.main]]
+    name = "Tags"
+    weight = 30
+    identifier = "tags"
+    url = "/tags/"
+  [[menu.main]]
+    name = "Categories"
+    weight = 40
+    identifier = "categories"
+    url = "/categories/"
+  [[menu.main]]
+    name = "About"
+    weight = 50
+    identifier = "about"
+    url = "https://yfu.tw"
+
+[params]
+  title = "Yu-Fu Fu's Blog"
+  images = ["/logo.png"]
+
+  [params.header]
+    [params.header.title]
+        # logo = "/assets/images/icon.png"
+        name = "Yu-Fu Fu's Blog"
+
+
+  [params.social]
+    GitHub = "fuyu0425"
+    Twitter = "fuyu0425_en"
+    Googlescholar = "user=-XhMvLYAAAAJ"
+    RSS = true
+  [params.page]
+    rssFullText = true
+    [params.page.math]
+        enable = true
+  [params.home]
+    [params.home.profile]
+      title = ""
+      subtitle = ""
+
+# multilingual
+
+[languages]
+  [languages.en]
+    weight = 1
+    title = "My New Hugo Site"
+    languageCode = "en"
+    languageName = "English"
+    [[languages.en.menu.main]]
+      weight = 1
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "Posts"
+      url = "/posts/"
+      title = ""
+    [[languages.en.menu.main]]
+      weight = 2
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "Tags"
+      url = "/tags/"
+      title = ""
+    [[languages.en.menu.main]]
+      weight = 3
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "Categories"
+      url = "/categories/"
+      title = ""
+    [[languages.en.menu.main]]
+      name = "About"
+      weight = 50
+      identifier = "about"
+      url = "https://yfu.tw"
+
+  [languages.zh-tw]
+    weight = 2
+    title = "Yu-Fu Fu's Blog"
+    languageCode = "zh-TW"
+    languageName = "繁體中文"
+    hasCJKLanguage = true
+    [[languages.zh-tw.menu.main]]
+      weight = 1
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "文章"
+      url = "/posts/"
+      title = ""
+    [[languages.zh-tw.menu.main]]
+      weight = 2
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "標簽"
+      url = "/tags/"
+      title = ""
+    [[languages.zh-tw.menu.main]]
+      weight = 3
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "分類"
+      url = "/categories/"
+      title = ""
+    [[languages.zh-tw.menu.main]]
+      name = "關於我"
+      weight = 50
+      identifier = "about"
+      url = "https://yfu.tw"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params.search]
+  enable = true
+  # type of search engine ["lunr", "algolia"]
+  # 搜索引擎的类型 ["lunr", "algolia"]
+  type = "lunr"
+  # max index length of the chunked content
+  # 文章内容最长索引长度
+  contentLength = 4000
+  # placeholder of the search bar
+  # 搜索框的占位提示语
+  placeholder = ""
+  # max number of results length
+  # 最大结果数目
+  maxResultLength = 10
+  # snippet length of the result
+  # 结果内容片段长度
+  snippetLength = 30
+  # HTML tag name of the highlight part in results
+  # 搜索结果中高亮部分的 HTML 标签
+  highlightTag = "em"
+  # whether to use the absolute URL based on the baseURL in search index
+  # 是否在搜索索引中使用基于 baseURL 的绝对路径
+  absoluteURL = false
+  [params.search.algolia]
+    index = ""
+    appID = ""
+    searchKey = ""
