@@ -1,0 +1,36 @@
+#+OPTIONS: author:nil
+#+HUGO_BASE_DIR: ../
+#+HUGO_WEIGHT: auto
+#+hugo_front_matter_format: toml
+#+HUGO_AUTO_SET_LASTMOD: t
+
+* TITLE @@CATEGORIESANDTAGS@@
+   :PROPERTIES:
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :toc true :comments true
+   :END:
+
+** TODO @@TITLE@@
+   :PROPERTIES:
+   :EXPORT_HUGO_SECTION: en/posts
+   :EXPORT_FILE_NAME: @@SLUG@@
+   :EXPORT_HUGO_LOCALE: en
+   :EXPORT_LANGUAGE: en
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :author "Yu-Fu Fu"
+   :END:
+   This post is only available in Chinese.
+** TODO @@CNTITLE@@
+   :PROPERTIES:
+   :EXPORT_HUGO_SECTION: zh-tw/posts
+   :EXPORT_FILE_NAME: @@SLUG@@
+   :EXPORT_HUGO_LOCALE: zh
+   :EXPORT_LANGUAGE: zh
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :author "傅裕夫"
+   :END:
+   這邊文章只有英文版。
+
+* Footnotes
+
+* COMMENT Local Variables                          :ARCHIVE:
+# Local Variables:
+# eval: (unless (string= (buffer-name) "template.org") (org-hugo-auto-export-mode))
+# End:

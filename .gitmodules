@@ -4,3 +4,9 @@
 [submodule "themes/minima"]
 	path = themes/minima
 	url = https://github.com/mivinci/hugo-theme-minima.git
+[submodule "themes/DoIt"]
+	path = themes/DoIt
+	url = https://github.com/HEIGE-PCloud/DoIt.git
+[submodule "themes/FixIt"]
+	path = themes/FixIt
+	url = https://github.com/hugo-fixit/FixIt.git

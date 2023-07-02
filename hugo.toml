@@ -3,7 +3,10 @@ languageCode = 'en-us'
 languageName = "English"
 
 title = "Yu-Fu Fu's Blog"
-theme = "LoveIt"
+description = "Yu-Fu Fu's Blog"
+# theme = "LoveIt"
+# theme = "DoIt"
+theme = "FixIt"
 
 enableRobotsTXT = true
 enableEmoji = true
@@ -56,6 +59,7 @@ defaultContentLanguage = "en"
   [params.header]
     [params.header.title]
         # logo = "/assets/images/icon.png"
+        logo = ""
         name = "Yu-Fu Fu's Blog"
 
 
@@ -78,9 +82,11 @@ defaultContentLanguage = "en"
 [languages]
   [languages.en]
     weight = 1
-    title = "My New Hugo Site"
+    title = "Yu-Fu Fu's Blog"
+    description = "Yu-Fu Fu's Blog"
     languageCode = "en"
     languageName = "English"
+    contentDir = 'content/en'
     [[languages.en.menu.main]]
       weight = 1
       identifier = "posts"
@@ -89,6 +95,9 @@ defaultContentLanguage = "en"
       name = "Posts"
       url = "/posts/"
       title = ""
+      [langauges.en.menu.main.params]
+        draft = true
+
     [[languages.en.menu.main]]
       weight = 2
       identifier = "tags"
@@ -114,9 +123,11 @@ defaultContentLanguage = "en"
   [languages.zh-tw]
     weight = 2
     title = "Yu-Fu Fu's Blog"
+    description = "Yu-Fu Fu's Blog"
     languageCode = "zh-TW"
     languageName = "繁體中文"
     hasCJKLanguage = true
+    contentDir = 'content/zh-tw'
     [[languages.zh-tw.menu.main]]
       weight = 1
       identifier = "posts"
@@ -177,3 +188,36 @@ defaultContentLanguage = "en"
     index = ""
     appID = ""
     searchKey = ""
+
+[params.footer]
+  enable = true
+  # Custom content (HTML format is supported)
+  # 自定义内容 (支持 HTML 格式)
+  custom = "<a href='https://www.gnu.org/s/emacs/'> <img src='/made-with-emacs.jpeg' width='150px' height='44px'> </a>"
+  # custom = ""
+  # whether to show Hugo and theme info
+  # 是否显示 Hugo 和主题信息
+  hugo = false
+  # whether to show copyright info
+  # 是否显示版权信息
+  copyright = false
+  # whether to show the author
+  # 是否显示作者
+  author = false
+  # site creation time
+  # 网站创立年份
+  since = ""
+  # ICP info only in China (HTML format is supported)
+  # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
+  icp = ""
+  # license info (HTML format is supported)
+  # 许可协议信息 (支持 HTML 格式)
+  license= ""
+
+  [params.footer.siteTime]
+      enable = true
+
+
+# https://ox-hugo.scripter.co/doc/goldmark/
+[markup.goldmark.renderer]
+  unsafe = true
