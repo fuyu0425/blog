@@ -218,6 +218,10 @@ defaultContentLanguage = "en"
       enable = true
 
 
+  [params.cookieconsent]
+    enable = false
+
+
 # https://ox-hugo.scripter.co/doc/goldmark/
 [markup.goldmark.renderer]
   unsafe = true
