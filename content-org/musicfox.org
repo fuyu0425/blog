@@ -30,6 +30,7 @@ CLOSED: [2023-07-13 Thu 22:55]
 *** go-musicfox
 [[https://github.com/go-musicfox/go-musicfox][go-musicfox]] 是一個命令行的網易雲客戶端，支援不少功能例如 [[https://www.last.fm/home][last.fm]] 上報。
 
+#+caption: go-musicfox 界面
 [[https://github.com/go-musicfox/go-musicfox/raw/master/previews/main.png]]
 
 
@@ -352,6 +353,7 @@ Date: Mon, 12 Jun 2023 07:18:15 GMT
 #+end_src
 
 ***** 效果
+#+caption: Menubar toggle
 [[/images/player-toggle.gif]]
 
 * Footnotes

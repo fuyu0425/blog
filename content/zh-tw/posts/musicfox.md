@@ -1,7 +1,7 @@
 +++
 title = "使用 go-musicfox 來聽 網易雲"
 date = 2023-07-13T22:55:00-04:00
-lastmod = 2023-07-13T22:55:47-04:00
+lastmod = 2023-07-14T00:04:32-04:00
 tags = ["music", "netease", "lastfm", "emacs", "hammerspoon", "macos"]
 draft = false
 weight = 2002
@@ -14,7 +14,7 @@ author = "傅裕夫"
 
 [go-musicfox](https://github.com/go-musicfox/go-musicfox) 是一個命令行的網易雲客戶端，支援不少功能例如 [last.fm](https://www.last.fm/home) 上報。
 
-{{< figure src="https://github.com/go-musicfox/go-musicfox/raw/master/previews/main.png" >}}
+{{< figure src="https://github.com/go-musicfox/go-musicfox/raw/master/previews/main.png" caption="<span class=\"figure-number\">Figure 1: </span>go-musicfox 界面" >}}
 
 本文只做基本介紹，和我踩的一些坑 (還提了幾個 issue)，還有一些自動化工具撰寫。
 
@@ -380,4 +380,4 @@ end)
 
 #### 效果 {#效果}
 
-{{< figure src="/images/player-toggle.gif" >}}
+{{< figure src="/images/player-toggle.gif" caption="<span class=\"figure-number\">Figure 2: </span>Menubar toggle" >}}
