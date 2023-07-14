@@ -33,4 +33,5 @@
 * COMMENT Local Variables                          :ARCHIVE:
 # Local Variables:
 # eval: (unless (string= (buffer-name) "template.org") (org-hugo-auto-export-mode))
+# eval: (define-key org-mode-map (kbd "C-C C-e") #'(lambda () (interactive) (org-hugo-export-wim-to-md t nil)))
 # End:
