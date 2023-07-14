@@ -112,11 +112,9 @@
             {{- if eq (len .AllTranslations) 2 -}}
                 {{- range .AllTranslations -}}
                 {{- if ne .Lang $.Lang -}}
-                <li class="menu-item">
                     <a href="{{ .RelPermalink }}" role="button" aria-label="{{ T "header.selectLanguage" }}" title="{{ T "header.selectLanguage" }}">
                         {{- dict "Class" "fa-solid fa-language fa-fw" | partial "plugin/icon.html" -}}
                     </a>
-                </li>
                 {{- end -}}
                 {{- end -}}
             {{- else -}}
