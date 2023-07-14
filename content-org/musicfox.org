@@ -7,6 +7,7 @@
 * TITLE :music:netease:lastfm:emacs:hammerspoon:macos:
    :PROPERTIES:
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :toc true :comments true
+   :EXPORT_HUGO_SLUG: musicfox
    :END:
 
 ** TODO Use go-musicfox to listen Netease Music

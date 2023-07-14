@@ -1,0 +1,62 @@
+[search]
+enable=true
+[home]
+  rss = 10
+  [home.profile]
+    enable = true
+    gravatarEmail = ""
+    avatarURL = ""
+    avatarMenu = ""
+    title = ""
+    subtitle = ""
+    typeit = false
+    social = true
+    disclaimer = ""
+  [home.posts]
+    enable = true
+    paginate = 6
+
+[social]
+    GitHub = "fuyu0425"
+    Twitter = "fuyu0425_en"
+    Googlescholar = "user=-XhMvLYAAAAJ"
+    RSS = true
+
+[page]
+  rssFullText = true
+  [page.math]
+      enable = true
+  [page.expirationReminder]
+    enable =true
+
+[footer]
+  enable = true
+  # Custom content (HTML format is supported)
+  # 自定义内容 (支持 HTML 格式)
+  custom = "<a href='https://www.gnu.org/s/emacs/'> <img src='/made-with-emacs.jpeg' width='150px' height='44px'> </a>"
+  # custom = ""
+  # whether to show Hugo and theme info
+  # 是否显示 Hugo 和主题信息
+  hugo = false
+  # whether to show copyright info
+  # 是否显示版权信息
+  copyright = false
+  # whether to show the author
+  # 是否显示作者
+  author = false
+  # site creation time
+  # 网站创立年份
+  since = ""
+  # ICP info only in China (HTML format is supported)
+  # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
+  icp = ""
+  # license info (HTML format is supported)
+  # 许可协议信息 (支持 HTML 格式)
+  license= ""
+
+  [footer.siteTime]
+      enable = true
+
+
+[cookieconsent]
+  enable = false

@@ -62,21 +62,6 @@ defaultContentLanguage = "en"
         logo = ""
         name = "Yu-Fu Fu's Blog"
 
-
-  [params.social]
-    GitHub = "fuyu0425"
-    Twitter = "fuyu0425_en"
-    Googlescholar = "user=-XhMvLYAAAAJ"
-    RSS = true
-  [params.page]
-    rssFullText = true
-    [params.page.math]
-        enable = true
-  [params.home]
-    [params.home.profile]
-      title = ""
-      subtitle = ""
-
 # multilingual
 
 [languages]
@@ -165,73 +150,3 @@ defaultContentLanguage = "en"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-[params.search]
-  enable = true
-  # type of search engine ["lunr", "algolia"]
-  # 搜索引擎的类型 ["lunr", "algolia"]
-  type = "lunr"
-  # max index length of the chunked content
-  # 文章内容最长索引长度
-  contentLength = 4000
-  # placeholder of the search bar
-  # 搜索框的占位提示语
-  placeholder = ""
-  # max number of results length
-  # 最大结果数目
-  maxResultLength = 10
-  # snippet length of the result
-  # 结果内容片段长度
-  snippetLength = 30
-  # HTML tag name of the highlight part in results
-  # 搜索结果中高亮部分的 HTML 标签
-  highlightTag = "em"
-  # whether to use the absolute URL based on the baseURL in search index
-  # 是否在搜索索引中使用基于 baseURL 的绝对路径
-  absoluteURL = false
-  [params.search.algolia]
-    index = ""
-    appID = ""
-    searchKey = ""
-
-[params.footer]
-  enable = true
-  # Custom content (HTML format is supported)
-  # 自定义内容 (支持 HTML 格式)
-  custom = "<a href='https://www.gnu.org/s/emacs/'> <img src='/made-with-emacs.jpeg' width='150px' height='44px'> </a>"
-  # custom = ""
-  # whether to show Hugo and theme info
-  # 是否显示 Hugo 和主题信息
-  hugo = false
-  # whether to show copyright info
-  # 是否显示版权信息
-  copyright = false
-  # whether to show the author
-  # 是否显示作者
-  author = false
-  # site creation time
-  # 网站创立年份
-  since = ""
-  # ICP info only in China (HTML format is supported)
-  # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-  icp = ""
-  # license info (HTML format is supported)
-  # 许可协议信息 (支持 HTML 格式)
-  license= ""
-
-  [params.footer.siteTime]
-      enable = true
-
-
-  [params.cookieconsent]
-    enable = false
-
-
-# https://ox-hugo.scripter.co/doc/goldmark/
-[markup.goldmark.renderer]
-  unsafe = true
-
-
-
-[params.page.expirationReminder]
-    enable = true
