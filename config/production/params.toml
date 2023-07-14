@@ -15,3 +15,16 @@
   lightTheme = "light"
   darkTheme = "dark_dimmed"
   lazyLoad = true
+
+[analytics]
+  enable = true
+  # Google Analytics
+  [analytics.google]
+    id = "G-TRB4QQE7V1"
+    # whether to anonymize IP
+    anonymizeIP = true
+  # Fathom Analytics
+  [analytics.fathom]
+    id = ""
+    # server url for your tracker if you're self hosting
+    server = ""
