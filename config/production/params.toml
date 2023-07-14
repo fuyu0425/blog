@@ -1,0 +1,17 @@
+[page.comment]
+  enable = true
+[params.page.comment.giscus]
+  enable = true
+  repo = "fuyu0425/blog"
+  repoId = "MDEwOlJlcG9zaXRvcnkxMjc0MzQyNjM="
+  category = "Announcements"
+  categoryId = "DIC_kwDOB5h-F84CXnXN"
+  mapping = "title"
+  strict = "0" # FixIt NEW | 0.2.18
+  term = ""
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "bottom" # ["top", "bottom"]
+  lightTheme = "light"
+  darkTheme = "dark_dimmed"
+  lazyLoad = true
