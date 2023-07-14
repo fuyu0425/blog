@@ -20,6 +20,8 @@ enable=true
     GitHub = "fuyu0425"
     Twitter = "fuyu0425_en"
     Googlescholar = "user=-XhMvLYAAAAJ"
+    # Lastfm = "twleo"
+    Email="yufu@yfu.tw"
     RSS = true
 
 [page]
@@ -28,6 +30,10 @@ enable=true
       enable = true
   [page.expirationReminder]
     enable =true
+  [page.share]
+    HackerNews = true
+    Reddit = true
+    Weibo = false
 
 [footer]
   enable = true
@@ -60,3 +66,9 @@ enable=true
 
 [cookieconsent]
   enable = false
+
+[readingProgress]
+enable=true
+
+[pace]
+enable =true
