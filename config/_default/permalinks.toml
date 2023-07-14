@@ -1,0 +1,3 @@
+[page]
+'/' = '/:year/:month/:slug/'
+posts = '/posts/:year/:month/:slug/'

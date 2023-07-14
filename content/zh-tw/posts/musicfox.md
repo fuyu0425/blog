@@ -1,7 +1,7 @@
 +++
 title = "使用 go-musicfox 來聽 網易雲"
 date = 2023-07-13T22:55:00-04:00
-lastmod = 2023-07-14T00:04:32-04:00
+lastmod = 2023-07-14T16:02:35-04:00
 tags = ["music", "netease", "lastfm", "emacs", "hammerspoon", "macos"]
 draft = false
 weight = 2002

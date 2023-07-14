@@ -128,6 +128,11 @@ defaultContentLanguage = "en"
     languageName = "繁體中文"
     hasCJKLanguage = true
     contentDir = 'content/zh-tw'
+    [languages.zh-tw.author]
+      name = "傅裕夫"
+      email = "yufu@yfu.tw"
+      link = "https://yfu.tw"
+
     [[languages.zh-tw.menu.main]]
       weight = 1
       identifier = "posts"
