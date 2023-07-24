@@ -1,6 +1,6 @@
 +++
 title = "Why I do not subscribe (reduce) to music streaming service anymore?"
-lastmod = 2023-07-24T11:47:29-04:00
+lastmod = 2023-07-24T11:53:19-04:00
 slug = "no-music-subscription"
 tags = ["no subscription", "music", "spotify", "apple music"]
 categories = ["no subscription"]

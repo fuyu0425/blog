@@ -19,7 +19,8 @@
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :author "Yu-Fu Fu"
    :END:
    This post is only available in Chinese.
-** TODO 為什麼我不再(減少)訂閱音樂串流服務?
+** DONE 為什麼我不再(減少)訂閱音樂串流服務?
+CLOSED: [2023-07-24 Mon 11:53]
    :PROPERTIES:
    :EXPORT_HUGO_SECTION: zh-tw/posts
    :EXPORT_FILE_NAME: no-subscription-music

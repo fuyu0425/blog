@@ -1,10 +1,11 @@
 +++
 title = "為什麼我不再(減少)訂閱音樂串流服務?"
-lastmod = 2023-07-24T11:47:29-04:00
+date = 2023-07-24T11:53:00-04:00
+lastmod = 2023-07-24T11:53:19-04:00
 slug = "no-music-subscription"
 tags = ["no subscription", "music", "spotify", "apple music"]
 categories = ["no subscription"]
-draft = true
+draft = false
 weight = 2002
 toc = true
 comments = true
